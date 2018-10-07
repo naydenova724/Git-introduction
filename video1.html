@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space quiz</title>
+    <meta charset="UTF-8">
+<style>
+</style>
+</head>
+
+<body>
+    <h1> Short space quiz</h1>
+
+    <p>After you select your answer, click the next button to go to the next question</p>
+
+    <h2>By watching the video, can you quess what is the size of the space station?</h2>
+
+    <video controls poster="img\iss.jpg" height="250">
+        <source src="iss animation.mp4" type="video/mp4"/>
+        <span>Your browser does not support the video element.</span>
+    </video>
+
+    <form action="video2.html" method="GET">
+        <figure>
+            <div>
+                <span>A.</span>
+                <input type="radio" name="video1" id="A" />
+                <label for="A">350m X 232m</label>
+            </div>
+
+            <div>
+                <span>B.</span>
+                <input type="radio" name="video1" id="B" checked/>
+                <label for="B">60m X 24m</label>
+            </div>
+            
+            <div>
+                <span>C.</span>
+                <input type="radio" name="video1" id="C" />
+                <label for="C">109m X 73m</label>
+            </div>
+                
+            <div>
+                <span>D.</span>
+                <input type="radio" name="video1" id="D" />
+                <label for="D">206m X 176m</label>
+            </div>
+            <br/>
+            <div>
+                <input type="submit" value="Next question >"/>
+            </div>
+        </figure>
+    </form>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space quiz</title>
+    <meta charset="UTF-8">
+<style>
+</style>
+</head>
+
+<body>
+    <h1> Short space quiz</h1>
+
+    <p>After you select your answer, click the next button to go to the next question</p>
+
+    <h2>By listening to the audio track, can you quess who is the person speaking?</h2>
+
+    <form action="serverSimulation.html" method="GET">
+        <figure>
+            <div>
+                <label>1.</label>
+                <audio controls>
+                    <source src="Question 2.mp3" type="audio/mp4"/>>
+                </audio>
+            </div>
+
+            <div>
+                <span>A.</span>
+                <input type="radio" name="audio1" id="DV" />
+                <label for="DV">Darth Vader</label>
+            </div>
+
+            <div>
+                <span>B.</span>
+                <input type="radio" name="audio1" id="T" />
+                <label for="T">Terminator</label>
+            </div>
+            
+            <div>
+                <span>C.</span>
+                <input type="radio" name="audio1" id="SH" />
+                <label for="SH">Stephen Hawking</label>
+            </div>
+                
+            <div>
+                <span>D.</span>
+                <input type="radio" name="audio1" id="MK" />
+                <label for="MK">Michio Kaku</label>
+            </div>
+        </figure>
+        <br/>
+      
+        <figure>
+            <div>
+                <label>2.</label>
+                <audio controls>
+                    <source src="Question 3.mp3" type="audio/mp4"/>>
+                </audio>
+            </div>
+
+            <div>
+                <span>A.</span>
+                <input type="radio" name="audio2" id="EM" />
+                <label for="EM">Elon Musk</label>
+            </div>
+
+            <div>
+                <span>B.</span>
+                <input type="radio" name="audio2" id="NGT" />
+                <label for="NGT">Neil deGrass Tyson</label>
+            </div>
+            
+            <div>
+                <span>C.</span>
+                <input type="radio" name="audio2" id="MT" />
+                <label for="MT">Mike Tyson</label>
+            </div>
+                
+            <div>
+                <span>D.</span>
+                <input type="radio" name="audio2" id="EDM" />
+                <label for="EDM">Eddie Murphy</label>
+            </div>
+        </figure>
+        <br/>
+        
+        <div>
+            <input type="submit" value="Finish quiz"/>
+        </div>
+    </form>
+</body>
+</html>
